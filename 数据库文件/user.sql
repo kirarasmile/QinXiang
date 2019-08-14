@@ -1,0 +1,14 @@
+INSERT INTO `user` VALUES (1, '修改', '1212', '24', '24', '35', '53', 35);
+INSERT INTO `user` VALUES (2, 'change2', '22', '', '24', '124', '14', 0);
+INSERT INTO `user` VALUES (3, '00', '00', '00', '00', '00', '00', 0);
+INSERT INTO `user` VALUES (4, '4', '44', '女', '44', '44', '44', 0);
+INSERT INTO `user` VALUES (5, '5', '55', '男', '55', '55', '55', 0);
+INSERT INTO `user` VALUES (6, '6', '66', '男', '66', '66', '66', 0);
+INSERT INTO `user` VALUES (7, '7', '77', '女', '77', '77', '77', 0);
+INSERT INTO `user` VALUES (8, 'admin', '123', 'admin', 'admin', 'admin', 'admin', 1);
+INSERT INTO `user` VALUES (9, '6346', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (10, '346', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (11, '346', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (12, '5243', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (13, '32145', NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `user` VALUES (14, 'benren', '2222', '33', '33', '33', '33', 0);

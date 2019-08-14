@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+/*banner*/
+.banner{width:100%;height:660px;overflow:hidden;position:relative;margin-top:84px;}
+.banner .pic{z-index:0}
+.banner .pic li{width:100%;height:660px; display:block}
+.banner .pic li a{width:100%;height:660px; display:block}
+.banner .hd{width:100%;position:absolute;bottom:15px;text-align:center;font-size:0;z-index:99999}
+.banner .hd li{margin:0 4px;background:#c4c7c8;height:15px;overflow:hidden;width:15px;cursor:pointer;display:inline-block;*display:inline;zoom:1;border:1px solid #c4c7c8}
+.banner .hd .on{background:#fff;background:#fff;border:1px solid #79b8db}
+
+
+.banner .prev,.banner .next{width:40px;height:60px;margin:-60px 0 0;display:none;background:url(../images/ad_ctr.png) no-repeat 0 0;position:absolute;top:50%;z-index:10;cursor:pointer;text-indent:-9999px;filter:alpha(opacity=20);opacity:0.2}
+.banner .prev{left:0}
+.banner .next{background-position:0 -60px;right:0}
+.banner .prev:hover,.banner .next:hover{filter:alpha(opacity=50) !important;opacity:0.5 !important}
+
+
+
+.font10086{
+font-size:36px;
+text-align:center;
+}
+

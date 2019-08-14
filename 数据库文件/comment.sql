@@ -1,0 +1,9 @@
+INSERT INTO `comment` VALUES (1, '123', '777', '891241515353252552351111111111111111111111111111111111111111111111111111111111111111', 'pianoroom27.jpg');
+INSERT INTO `comment` VALUES (4, NULL, '手机', '嗯嗯', 'pianoroom28.jpg');
+INSERT INTO `comment` VALUES (6, NULL, '华软', '不错', 'pianoroom29.jpg');
+INSERT INTO `comment` VALUES (7, NULL, '新的动态', '困', '20190710094447.jpg');
+INSERT INTO `comment` VALUES (8, NULL, '24', '42', '20190710094616.jpg');
+INSERT INTO `comment` VALUES (9, NULL, '贪玩蓝月', '真的很困', '20190711045508.jpg');
+INSERT INTO `comment` VALUES (10, NULL, 'xiaomi', '1111', '20190711050826.jpg');
+INSERT INTO `comment` VALUES (11, NULL, '541513', '32532523', '20190711054203.jpg');
+INSERT INTO `comment` VALUES (12, NULL, '好', '困', '20190711124150.jpg');

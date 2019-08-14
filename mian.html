@@ -1,0 +1,131 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>琴享，年轻人的第一个琴房</title>
+	<link rel="stylesheet" href="css/mianstyle.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/css1.css">
+</head>
+
+<body bgcolor="#F5F6EE">
+	<div class="head-box">
+    <div class="head wrap">
+          <div class="logo fl"><img src="images/logo.jpg" /></div>
+          <div class="head-right fr">
+              <div class="head-a fr">
+                   <div class="hgt fl"><a href=""></a><img src="images/search.png"></a></div>
+                   <div class="head-a3 login-click fl"><a href="LogOut.php">注销</a></div>
+                   <div class="head-a4 reg-click fl"><a href="UserFiles.php">资料</a></div>
+              
+              </div>
+              <div class="clearfix"></div>	
+			  <div class="nav fr">
+              <ul>
+					<li  class="nav-cut"><a href="index.html">首页</a></li>
+                    <li><a href="Search.php">搜索</a></li>
+                    <li><a href="community.php">社区</a></li>
+                    <li><a href="Huodong.php">活动</a></li>
+                    <li><a href="Piano.php">琴房</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+			   </ul>
+			</div>
+					  <div class="clearfix"></div>
+		</div>
+	</div>
+	</div>
+		<div class="banner">
+		<ul class="pic">
+			<li style="background:url(images/home11.jpg) center top no-repeat "><a href="#"></a></li>
+			<li style="background:url(images/home12.jpg) center top no-repeat "><a href="#"></a></li>
+			<li style="background:url(images/home13.jpg) center top no-repeat "><a href="#"></a></li>
+		</ul>
+		<a class="prev" href="javascript:void(0)"></a>
+		<a class="next" href="javascript:void(0)"></a>
+		<ul class="hd">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		</div>
+	
+		<div class="font10086"> 最新音乐会 </div>
+		
+		<div class="banner">
+		<ul class="pic">
+			<li style="background:url(images/home-musicial1.jpg) center top no-repeat "><a href="#"></a></li>
+			<li style="background:url(images/home-musicial2.jpg) center top no-repeat "><a href="#"></a></li>
+			<li style="background:url(images/home-musicial3.jpg) center top no-repeat "><a href="#"></a></li>
+		</ul>
+		<a class="prev" href="javascript:void(0)"></a>
+		<a class="next" href="javascript:void(0)"></a>
+		<ul class="hd">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		</div>
+	
+		<div class="font10086"> 琴房动态 </div>
+		
+		<div class="banner">
+		<ul class="pic">
+			<li style="background:url(images/home-pianohouse1.png) center top no-repeat "><a href="#"></a></li>
+			<li style="background:url(images/home-pianohouse2.png) center top no-repeat "><a href="#"></a></li>
+		</ul>
+		<a class="prev" href="javascript:void(0)"></a>
+		<a class="next" href="javascript:void(0)"></a>
+		<ul class="hd">
+			<li></li>
+			<li></li>
+		</ul>
+		</div>	
+		
+		<div class="font10086"> 琴友动态 </div>
+		
+		<div class="banner">
+		<ul class="pic">
+			<li style="background:url(images/home41.jpg) center top no-repeat ;"><a href="#"></a></li>
+			<li style="background:url(images/home42.jpg) center top no-repeat ;"><a href="#"></a></li>
+			<li style="background:url(images/home43.jpg) center top no-repeat;"><a href="#"></a></li>
+			<li style="background:url(images/home45.jpg) center top no-repeat;"><a href="#"></a></li>
+		</ul>
+		<a class="prev" href="javascript:void(0)"></a>
+		<a class="next" href="javascript:void(0)"></a>
+		<ul class="hd">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		</div>
+		
+		
+	
+		<div class="footer">
+		   <div class="wrap">
+			  <div class="foot">
+					<div class="foot-left fl">
+						 <a href="">关于我们</a>
+						 <a href="contact.html">联系我们</a>
+					</div>
+					<div class="foot-c fl"><img src="images/logo.jpg" /></div>
+					<div class="foot-right fl">
+						 <a href="">同城活动</a>
+						 <a href="">课程资讯</a>
+					</div>
+			   </div> 
+
+		   </div>
+		</div>
+
+	
+			<!-- The Scripts -->
+		<script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.js"></script> 
+		<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript">
+		jQuery(".banner").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+		jQuery(".banner").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});//banner图
+		</script>
+	</body> 
+</html>
